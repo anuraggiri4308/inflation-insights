@@ -375,7 +375,7 @@ export default function InflationCalculator() {
 
     ctx.fillStyle = "#64748b";
     ctx.font = "400 22px Inter, sans-serif";
-    ctx.fillText("@anuraggirispeaks  ·  topmate.io/anuraggiri", 70, H - 60);
+    ctx.fillText("@fintechanurag  ·  topmate.io/anuraggiri", 70, H - 60);
 
     canvas.toBlob((blob) => {
       const url = URL.createObjectURL(blob);
@@ -1113,12 +1113,12 @@ export default function InflationCalculator() {
             <p className={`text-xs sm:text-sm ${theme.textMuted}`}>
               Copyright 2026 Anurag Giri |{" "}
               <a
-                href="https://www.instagram.com/anuraggirispeaks/"
+                href="https://www.instagram.com/fintechanurag/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className={`font-medium ${theme.accent} hover:underline inline-flex items-center gap-1`}
               >
-                <Instagram size={13} /> @anuraggirispeaks
+                <Instagram size={13} /> @fintechanurag
               </a>{" "}
               | All rights reserved.
             </p>
